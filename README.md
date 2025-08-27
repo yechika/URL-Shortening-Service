@@ -1,7 +1,9 @@
-﻿# URL-Shortening-Service
+# URL-Shortening-Service
 
-POST /shorten ✅
-GET /shorten/${shortcode} ✅
-PUT /shorten/${shortcode} ✅
-DELETE /shorten/${shortcode} ✅
-GET /shorten/abc123/stats ❌
+## API Endpoints
+
+- ✅ `POST /shorten`
+- ✅ `GET /shorten/:shortCode`
+- ✅ `PUT /shorten/:shortCode`
+- ✅ `DELETE /shorten/:shortCode`
+- ❌ `GET /shorten/:shortCode/stats`
